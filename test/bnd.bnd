@@ -1,0 +1,14 @@
+-buildpath: \
+	osgi.core;version=6.0,\
+	org.apache.felix.dependencymanager,\
+	osgi.cmpn;version=6.0
+
+-testpath: \
+	${junit}
+
+javac.source: 1.8
+javac.target: 1.8
+
+Bundle-Version: 1.0.0.${tstamp}
+Private-Package: test
+Bundle-Activator: test.Activator
